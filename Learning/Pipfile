@@ -1,0 +1,20 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+tdqm = "*"
+notebook = "*"
+openai = "*"
+pandas = "*"
+scikit-learn = "*"
+ipywidgets = "*"
+minsearch = "*"
+elasticsearch = "==8.13.0"
+tiktoken = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.12"
